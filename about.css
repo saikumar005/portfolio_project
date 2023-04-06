@@ -1,0 +1,64 @@
+.aboutMe h2{
+    margin-left:20px;
+    margin-top:10px;
+    }
+.aboutMe p{
+margin:20px;
+text-align:justify;
+}
+
+.skillset{
+    display:flex;
+    margin:20px;
+}
+.skillname{
+    margin-top:0px;
+}
+.skillname p{
+    font-size:20px;
+    margin:10px;
+}
+
+.skillpercentage div{
+    margin:10px;
+    height:20px;
+    width:300px;
+}
+.skillpercentage{
+    margin-top:10px;
+}
+.skillpercentage div.skillpercentagebox{
+    border:1px solid transparent;
+    background-color: rgba(62, 13, 240, 0.253);
+}
+
+  /* percentage classes */
+
+div#seventy{
+    margin-left:0px;
+    margin-top:0px;
+    height:20px;
+    width:210px;
+    background-color:rgb(27 31 88 / 58%);
+}
+div#eighty{
+    margin-left:0px;
+    margin-top:0px;
+    height:20px;
+    width:240px;
+    background-color:rgb(27 31 88 / 58%);
+}
+div#ninety{
+    margin-left:0px;
+    margin-top:0px;
+    height:20px;
+    width:270px;
+    background-color:rgb(27 31 88 / 58%);
+}
+div#hundred{
+    margin-left:0px;
+    margin-top:0px;
+    height:20px;
+    width:300px;
+    background-color:rgb(27 31 88 / 58%);
+}
