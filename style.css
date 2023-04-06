@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  /* styling the sidebar */
+
+  .sidebar{
+    background-color: rgb(207, 198, 198);
+    width:300px;
+    font-family: 'Alkatra', cursive;
+    height: 100vh;
+  }
+  .sidebar nav{
+    padding: 30px;
+
+  }
+
+  .sidebar nav li{
+    list-style: none;
+    padding: 30px 0;
+    font-size:25px;
+  }
+  .sidebar nav li a{
+    text-decoration: none;
+  }
+
+    /* styling the main content */
+.main{
+    /* background-color: yellow; */
+    width:90vw;
+}
+
+  /* styling the container  */
+.container{
+    display:flex;
+}
+
+  /* sytle for infoContainer */
+.infoContainer{
+    /* background-color: pink; */
+    width:80vw;
+    height:70vh;
+    margin:100px auto;
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+  /* styling devInfo */
+
+.devInfo{
+  margin-left:50px;
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top:30px;
+}
+
+.hello{
+    font-size:40px;
+}
+
+.name{
+    font-size:50px;
+    font-weight: bold;
+}
+
+.about{
+  margin-top:10px;
+    font-size: 25px;
+}
+
+.moreabout{
+  margin-top:15px;
+  font-size:14px;
+}
+
+  /* styling buttons  */
+
+.button button{
+  padding:10px;
+  border-radius:20px;
+  margin-top:22px;
+  margin-left:30px;
+  background-color:black;
+  color:white;
+}
+
+.button button:hover{
+  background-color:white;
+  color:black;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.devPic img{
+    width:31.7vw;
+    height: 70vh;
+}

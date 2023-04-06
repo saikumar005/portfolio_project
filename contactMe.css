@@ -1,0 +1,58 @@
+div.contactForm h1{
+    margin:40px;
+}
+
+div.main{
+    display:flex;
+    flex-direction: column;
+}
+div.main form{
+    display:flex;
+    flex-direction: column;
+    margin-left:40px;
+}
+div.main form input{
+    padding:4px;
+    margin-bottom:30px;
+    font-size:15px;
+    border:none;
+    border-bottom:solid;
+    width: 326px;
+}
+div.main form label {
+    font-size: 30px;
+    /* margin: 0px 40px; */
+}
+
+.btn{
+    padding:10px;
+    border-radius:20px;
+    /* margin-left:40px; */
+    background-color:black;
+    color:white;
+    width:70px;
+  }
+  
+
+  .btn:hover{
+    background-color:white;
+    color:black;
+  }
+  #form p{
+    font-size:14px;
+    margin-bottom:20px;
+  }
+
+  .check{
+    display:flex;
+    flex-direction: row;
+    /* padding:0px;
+    margin:0px;  */
+    margin-bottom: -17px;
+  }
+#checkbox-label{
+    font-size: 15px;
+  }
+#checkbox{
+  width:20px;
+}
